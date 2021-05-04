@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Choice</title>
+</head>
+<body bgcolor='Cyan' text="Maroon" style="font-family: Bahnschrift, Gothic, Calibri;">
+	<center>
+	<h1>Music Choice Prediction</h1>
+	<form method="POST", action="{{url_for('result')}}">
+	<br> Age: <input type="text", name='a', placeholder="Enter age"><br>
+	<br> Gender: <input type="text", name='b', placeholder="Enter 1 (Male) or 0 (Female)"><br>
+	<br> <input type="submit", value="predict">
+	</form>
+	</center>
+</body>
+</html>
